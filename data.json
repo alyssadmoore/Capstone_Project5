@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "state": "Delaware",
+    "date_issued": "January 4, 1999",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/AL_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 2,
+    "state": "Pennsylvania",
+    "date_issued": "March 8, 1999",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/AK_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 3,
+    "state": "New Jersey",
+    "date_issued": "May 17, 1999",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/AZ_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 4,
+    "state": "Georgia",
+    "date_issued": "July 19, 1999",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/AR_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 5,
+    "state": "Connecticut",
+    "date_issued": "October 12, 1999",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/CA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 6,
+    "state": "Massachusetts",
+    "date_issued": "January 3, 2000",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/CO_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 7,
+    "state": "Maryland",
+    "date_issued": "March 13, 2000",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/CT_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 8,
+    "state": "South Carolina",
+    "date_issued": "May 22, 2000",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/DE_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 9,
+    "state": "New Hampshire",
+    "date_issued": "August 7, 2000",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/FL_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 10,
+    "state": "Virginia",
+    "date_issued": "October 16, 2000",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/GA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 11,
+    "state": "New York",
+    "date_issued": "January 2, 2001",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/HI_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 12,
+    "state": "North Carolina",
+    "date_issued": "March 12, 2001",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/ID_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 13,
+    "state": "Rhode Island",
+    "date_issued": "May 21, 2001",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/IL_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 14,
+    "state": "Vermont",
+    "date_issued": "August 6, 2001",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/IN_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 15,
+    "state": "Kentucky",
+    "date_issued": "October 15, 2001",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/IA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 16,
+    "state": "Tennessee",
+    "date_issued": "January 2, 2002",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/KS_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 17,
+    "state": "Ohio",
+    "date_issued": "March 11, 2002",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/KY_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 18,
+    "state": "Louisiana",
+    "date_issued": "May 20, 2002",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/LA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 19,
+    "state": "Indiana",
+    "date_issued": "August 2, 2002",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/ME_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 20,
+    "state": "Mississippi",
+    "date_issued": "October 15, 2002",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MD_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 21,
+    "state": "Illinois",
+    "date_issued": "January 2, 2003",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 22,
+    "state": "Alabama",
+    "date_issued": "March 17, 2003",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MI_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 23,
+    "state": "Maine",
+    "date_issued": "June 2, 2003",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MN_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 24,
+    "state": "Missouri",
+    "date_issued": "August 4, 2003",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MS_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 25,
+    "state": "Arkansas",
+    "date_issued": "October 20, 2003",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MO_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 26,
+    "state": "Michigan",
+    "date_issued": "January 26, 2004",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/MT_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 27,
+    "state": "Florida",
+    "date_issued": "March 29, 2004",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NE_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 28,
+    "state": "Texas",
+    "date_issued": "June 1, 2004",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NV_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 29,
+    "state": "Iowa",
+    "date_issued": "August 30, 2004",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NH_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 30,
+    "state": "Wisconsin",
+    "date_issued": "October 25, 2004",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NJ_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 31,
+    "state": "California",
+    "date_issued": "January 31, 2005",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NM_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 32,
+    "state": "Minnesota",
+    "date_issued": "April 4, 2005",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NY_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 33,
+    "state": "Oregon",
+    "date_issued": "June 6, 2005",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/NC_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 34,
+    "state": "Kansas",
+    "date_issued": "August 29, 2005",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/ND_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 35,
+    "state": "West Virginia",
+    "date_issued": "October 14, 2005",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/OH_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 36,
+    "state": "Nevada",
+    "date_issued": "January 31, 2006",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/OK_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 37,
+    "state": "Nebraska",
+    "date_issued": "April 3, 2006",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/OR_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 38,
+    "state": "Colorado",
+    "date_issued": "June 14, 2006",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/PA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 39,
+    "state": "North Dakota",
+    "date_issued": "August 28, 2006",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/RI_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 40,
+    "state": "South Dakota",
+    "date_issued": "November 6, 2006",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/SC_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 41,
+    "state": "Montana",
+    "date_issued": "January 29, 2007",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/SD_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 42,
+    "state": "Washington",
+    "date_issued": "April 2, 2007",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/TN_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 43,
+    "state": "Idaho",
+    "date_issued": "June 4, 2007",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/TX_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 44,
+    "state": "Wyoming",
+    "date_issued": "September 4, 2007",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/UT_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 45,
+    "state": "Utah",
+    "date_issued": "November 5, 2007",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/VT_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 46,
+    "state": "Oklahoma",
+    "date_issued": "January 28, 2008",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/VA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 47,
+    "state": "New Mexico",
+    "date_issued": "April 7, 2008",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/WA_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 48,
+    "state": "Arizona",
+    "date_issued": "June 2, 2008",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/WV_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 49,
+    "state": "Alaska",
+    "date_issued": "August 25, 2008",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/WI_Designs.gif",
+    "collected": "false"
+  },
+  {
+    "id": 50,
+    "state": "Hawaii",
+    "date_issued": "November 3, 2008",
+    "description": "todo",
+    "image": "https://www.usmint.gov/images/mint_programs/50sq_program/states/WY_Designs.gif",
+    "collected": "false"
+  }
+]
