@@ -145,11 +145,11 @@ class GUI(Frame):
         frame.bind("<Configure>", frame_configure)
 
         Label(frame, text="States you have collected:").grid(row=0, column=0)
-        Label(frame, text="States you have NOT collected:").grid(row=0, column=1)
+        Label(frame, text="\tStates you have not collected:").grid(row=0, column=1)
         for x in range(len(collected)):
             Label(frame, text=collected[x]).grid(row=x+1, column=0)
         for x in range(len(uncollected)):
-            Label(frame, text=uncollected[x]).grid(row=x+1, column=1)
+            Label(frame, text="\t" + uncollected[x]).grid(row=x+1, column=1)
 
     # Setup: set title, populate images and vars lists, create table
     def main(self):
