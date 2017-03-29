@@ -1,7 +1,8 @@
 import re
 import json
-import os
-import urllib.request
+import urllib2
+from PIL import Image, ImageTk
+
 
 all_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
               "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
@@ -15,7 +16,7 @@ all_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorad
 # Returns state names in the order in the document
 def get_states():
     states_reordered = []
-    with open('quarter_info.txt', 'r', encoding='utf8') as f:
+    with open('quarter_info.txt', 'r') as f:
         for line in f:
             if line.title().strip() in all_states:
                 states_reordered.append(line.title().strip())
@@ -26,7 +27,7 @@ def get_states():
 # Returns the dates each coin was released into circulation
 def get_dates():
     dates = []
-    with open('quarter_info.txt', 'r', encoding='utf8') as f:
+    with open('quarter_info.txt', 'r') as f:
         for line in f:
             if 'Coin Release' in line:
                 date = re.findall("Release: (.*) Release", line, re.DOTALL)
@@ -36,13 +37,13 @@ def get_dates():
 
 
 # Returns each coin's design description
-# TODO many design descriptions are on multiple lines and don't have a universal stop character. Must deal with this
+# TODO Incomplete - most descriptions return fine, some are cut off
 def get_descriptions():
     years = ["1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007"]
     descriptions = []
     final = []
     description = ""
-    with open('quarter_info.txt', 'r', encoding='utf8') as f:
+    with open('quarter_info.txt', 'r') as f:
         try:
             for line in f:
                 if 'Design: ' in line:
@@ -82,7 +83,7 @@ def get_links_list():
 def download_images():
     links = get_links_list()
     for x in range(len(links)):
-        urllib.request.urlretrieve(links[x], "images/coin" + str(x) + ".gif")
+        urllib2.urlopen((links[x], "images/coin/coin" + str(x) + ".gif"))
 
 
 # Dumps info gathered from the above methods into a JSON file
@@ -99,15 +100,32 @@ def json_dump():
     data = []
     for x in range(50):
         to_add = {"id": ids[x], "state": states[x], "date_issued": dates_issued[x],
-                  "description": "todo", "image": links[x], "collected": 0}
+                  "description": descriptions[x], "image": links[x], "collected": 0}
         data.append(to_add)
 
-    with open('data.json', 'w', encoding='utf8') as f:
+    with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
 
 
 # Reads the JSON file created in the above method
 def json_load():
-    with open('data.json', 'r', encoding='utf8') as f:
+    with open('data.json', 'r') as f:
         data = json.load(f)
     return data
+
+
+# Converts .png images gained from map_data.py to PhotoImages for use in the GUI
+def convert_images():
+    pics = []
+    for x in range(50):
+        p = Image.open('images/map/map' + str(x) + '.png')
+        new_p = ImageTk.PhotoImage(p)
+        pics.append(new_p)
+    return pics
+
+
+# Same function as above(convert_images()) but only returns the master map (all states collected so far)
+def get_mastermap():
+    p = Image.open('images/map/master.png')
+    master = ImageTk.PhotoImage(p)
+    return master
